@@ -1,101 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="210" viewBox="0 0 1000 210" role="img" aria-labelledby="title desc">
-  <title id="title">Achyutaram Sonti engineering profile</title>
-  <desc id="desc">An animated flow connecting API platforms, distributed systems, reliability and performance, and applied AI.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260" role="img" aria-labelledby="title desc">
+  <title id="title">Hi, I'm Achyutaram.</title>
+  <desc id="desc">Software engineer. Backend, distributed systems, and applied AI. A small abstract illustration with gently moving dots sits beside the introduction.</desc>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .traveler { animation: travel 12s linear infinite; }
+    .reverse { animation-direction: reverse; animation-duration: 18s; }
+    @keyframes travel { to { transform: rotate(360deg); } }
+    @media (prefers-reduced-motion: reduce) { .traveler { animation: none; } }
+  </style>
 
-  <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0d1117"/>
-      <stop offset="1" stop-color="#161b22"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#39d0ff"/>
-      <stop offset="0.34" stop-color="#58a6ff"/>
-      <stop offset="0.68" stop-color="#a371f7"/>
-      <stop offset="1" stop-color="#f778ba"/>
-    </linearGradient>
-    <linearGradient id="headline" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#79c0ff"/>
-      <stop offset="0.5" stop-color="#f0f6fc"/>
-      <stop offset="1" stop-color="#d2a8ff"/>
-    </linearGradient>
-    <linearGradient id="nodeCyan" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#12364a"/>
-      <stop offset="1" stop-color="#102531"/>
-    </linearGradient>
-    <linearGradient id="nodeBlue" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#183a66"/>
-      <stop offset="1" stop-color="#17263e"/>
-    </linearGradient>
-    <linearGradient id="nodePurple" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#382a62"/>
-      <stop offset="1" stop-color="#231d3c"/>
-    </linearGradient>
-    <linearGradient id="nodePink" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#502745"/>
-      <stop offset="1" stop-color="#301d2d"/>
-    </linearGradient>
-    <radialGradient id="auroraBlue">
-      <stop offset="0" stop-color="#1f6feb" stop-opacity="0.24"/>
-      <stop offset="1" stop-color="#1f6feb" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="auroraPurple">
-      <stop offset="0" stop-color="#8957e5" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#8957e5" stop-opacity="0"/>
-    </radialGradient>
-    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#30363d" stroke-width="1" opacity="0.28"/>
-    </pattern>
-  </defs>
+  <rect width="1000" height="260" rx="12" fill="#18242c"/>
 
-  <rect x="1" y="1" width="998" height="208" rx="18" fill="url(#background)" stroke="#30363d" stroke-width="2"/>
-  <rect x="1" y="1" width="998" height="208" rx="18" fill="url(#grid)"/>
-  <ellipse cx="185" cy="35" rx="270" ry="130" fill="url(#auroraBlue)"/>
-  <ellipse cx="835" cy="188" rx="300" ry="145" fill="url(#auroraPurple)"/>
+  <!-- A short introduction, with room for platform font differences. -->
+  <text x="44" y="58" fill="#9eb1bb" font-size="17" letter-spacing="2">SOFTWARE ENGINEER</text>
+  <text x="42" y="118" fill="#faf4e8" font-size="43" font-weight="600" letter-spacing="-1">Hi, I'm Achyutaram.</text>
+  <rect x="44" y="141" width="42" height="4" rx="2" fill="#f08d75"/>
+  <text x="44" y="188" fill="#d6e1e5" font-size="24">Backend &amp; distributed systems.</text>
+  <text x="44" y="223" fill="#90cdc4" font-size="24">Currently building with applied AI.</text>
 
-  <circle cx="25" cy="23" r="5" fill="#ff7b72"/>
-  <circle cx="43" cy="23" r="5" fill="#d29922"/>
-  <circle cx="61" cy="23" r="5" fill="#3fb950"/>
-  <text x="500" y="29" text-anchor="middle" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">achyutaram@engineering</text>
-
-  <text x="500" y="78" text-anchor="middle" fill="url(#headline)" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="25" font-weight="650">Building scalable, reliable software for production</text>
-  <text x="500" y="104" text-anchor="middle" fill="#9da7b3" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15">Backend  ·  Distributed Systems  ·  APIs  ·  Applied AI</text>
-
-  <path id="flow" d="M 173 153 H 827" fill="none" stroke="url(#accent)" stroke-width="2" opacity="0.58"/>
-
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" text-anchor="middle">
-    <g>
-      <rect x="72" y="132" width="202" height="42" rx="9" fill="url(#nodeCyan)" stroke="#39d0ff"/>
-      <text x="173" y="159" fill="#dff7ff">API Platforms</text>
+  <!-- Offset orbits keep the animated illustration independent of the text. -->
+  <g transform="translate(806 130)">
+    <circle r="91" fill="none" stroke="#34454e" stroke-width="1.5"/>
+    <path d="M 0 -91 A 91 91 0 0 1 91 0" fill="none" stroke="#90cdc4" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="-27" cy="12" r="59" fill="none" stroke="#f08d75" stroke-width="2"/>
+    <circle cx="28" cy="-13" r="39" fill="#e8bb74"/>
+    <circle cx="28" cy="-13" r="17" fill="#18242c"/>
+    <g class="traveler">
+      <circle cy="-91" r="6" fill="#90cdc4"/>
     </g>
-    <g>
-      <rect x="289" y="132" width="202" height="42" rx="9" fill="url(#nodeBlue)" stroke="#58a6ff"/>
-      <text x="390" y="159" fill="#e0efff">Distributed Systems</text>
+    <g transform="translate(-27 12)">
+      <g class="traveler reverse">
+        <circle cx="59" r="5" fill="#f08d75"/>
+      </g>
     </g>
-    <g>
-      <rect x="506" y="132" width="202" height="42" rx="9" fill="url(#nodePurple)" stroke="#a371f7"/>
-      <text x="607" y="159" fill="#eee5ff">Reliability + Performance</text>
-    </g>
-    <g>
-      <rect x="723" y="132" width="202" height="42" rx="9" fill="url(#nodePink)" stroke="#f778ba"/>
-      <text x="824" y="159" fill="#ffe5f5">Applied AI</text>
-    </g>
+    <path d="M 76 78 h 12 M 82 72 v 12" stroke="#e8bb74" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="-105" cy="-67" r="3" fill="#f08d75"/>
   </g>
-
-  <circle r="5" fill="url(#accent)" filter="url(#glow)">
-    <animateMotion dur="4.8s" repeatCount="indefinite" path="M 173 153 H 824"/>
-  </circle>
-  <circle r="4" fill="#39d0ff" opacity="0">
-    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.28;0.34;0.94;1" dur="4.8s" repeatCount="indefinite"/>
-    <animateMotion dur="4.8s" repeatCount="indefinite" path="M 173 153 H 824" begin="-1.45s"/>
-  </circle>
-  <circle r="5" fill="#f778ba" filter="url(#glow)">
-    <animateMotion dur="4.8s" repeatCount="indefinite" path="M 173 153 H 824" begin="-2.9s"/>
-  </circle>
 </svg>

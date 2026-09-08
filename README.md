@@ -1,10 +1,6 @@
 <p align="center">
-  <img src="./assets/profile-intro.svg" alt="Animated engineering flow: API platforms, distributed systems, reliability and performance, and applied AI" width="100%" />
+  <img src="./assets/profile-intro.svg" alt="Hi, I'm Achyutaram. Software engineer — backend, distributed systems, and applied AI." width="100%" />
 </p>
-
-# Achyutaram Sonti
-
-### Software Engineer - Backend, Distributed Systems & Applied AI
 
 I am a software engineer with 3+ years of experience building backend and
 distributed systems for healthcare and financial applications. My work spans
