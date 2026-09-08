@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-intro.svg" alt="Animated engineering flow: APIs, events, services, and AI workflows" width="100%" />
+  <img src="./assets/profile-intro.svg" alt="Animated engineering flow: API platforms, distributed systems, reliability and performance, and applied AI" width="100%" />
 </p>
 
 # Achyutaram Sonti

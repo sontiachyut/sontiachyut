@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="210" viewBox="0 0 1000 210" role="img" aria-labelledby="title desc">
   <title id="title">Achyutaram Sonti engineering profile</title>
-  <desc id="desc">An animated flow from APIs through events and services to applied AI workflows.</desc>
+  <desc id="desc">An animated flow connecting API platforms, distributed systems, reliability and performance, and applied AI.</desc>
 
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
@@ -8,9 +8,40 @@
       <stop offset="1" stop-color="#161b22"/>
     </linearGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#58a6ff"/>
-      <stop offset="1" stop-color="#a371f7"/>
+      <stop offset="0" stop-color="#39d0ff"/>
+      <stop offset="0.34" stop-color="#58a6ff"/>
+      <stop offset="0.68" stop-color="#a371f7"/>
+      <stop offset="1" stop-color="#f778ba"/>
     </linearGradient>
+    <linearGradient id="headline" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#79c0ff"/>
+      <stop offset="0.5" stop-color="#f0f6fc"/>
+      <stop offset="1" stop-color="#d2a8ff"/>
+    </linearGradient>
+    <linearGradient id="nodeCyan" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#12364a"/>
+      <stop offset="1" stop-color="#102531"/>
+    </linearGradient>
+    <linearGradient id="nodeBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#183a66"/>
+      <stop offset="1" stop-color="#17263e"/>
+    </linearGradient>
+    <linearGradient id="nodePurple" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#382a62"/>
+      <stop offset="1" stop-color="#231d3c"/>
+    </linearGradient>
+    <linearGradient id="nodePink" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#502745"/>
+      <stop offset="1" stop-color="#301d2d"/>
+    </linearGradient>
+    <radialGradient id="auroraBlue">
+      <stop offset="0" stop-color="#1f6feb" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#1f6feb" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="auroraPurple">
+      <stop offset="0" stop-color="#8957e5" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#8957e5" stop-opacity="0"/>
+    </radialGradient>
     <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
       <feGaussianBlur stdDeviation="3" result="blur"/>
       <feMerge>
@@ -25,44 +56,46 @@
 
   <rect x="1" y="1" width="998" height="208" rx="18" fill="url(#background)" stroke="#30363d" stroke-width="2"/>
   <rect x="1" y="1" width="998" height="208" rx="18" fill="url(#grid)"/>
+  <ellipse cx="185" cy="35" rx="270" ry="130" fill="url(#auroraBlue)"/>
+  <ellipse cx="835" cy="188" rx="300" ry="145" fill="url(#auroraPurple)"/>
 
   <circle cx="25" cy="23" r="5" fill="#ff7b72"/>
   <circle cx="43" cy="23" r="5" fill="#d29922"/>
   <circle cx="61" cy="23" r="5" fill="#3fb950"/>
   <text x="500" y="29" text-anchor="middle" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">achyutaram@engineering</text>
 
-  <text x="500" y="78" text-anchor="middle" fill="#f0f6fc" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="25" font-weight="650">Building reliable systems from API to intelligence</text>
-  <text x="500" y="104" text-anchor="middle" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15">Backend  ·  Distributed Systems  ·  Applied AI</text>
+  <text x="500" y="78" text-anchor="middle" fill="url(#headline)" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="25" font-weight="650">Building scalable, reliable software for production</text>
+  <text x="500" y="104" text-anchor="middle" fill="#9da7b3" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15">Backend  ·  Distributed Systems  ·  APIs  ·  Applied AI</text>
 
-  <path id="flow" d="M 173 153 H 827" fill="none" stroke="#30363d" stroke-width="2"/>
+  <path id="flow" d="M 173 153 H 827" fill="none" stroke="url(#accent)" stroke-width="2" opacity="0.58"/>
 
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" text-anchor="middle">
     <g>
-      <rect x="88" y="132" width="170" height="42" rx="9" fill="#161b22" stroke="#388bfd"/>
-      <text x="173" y="159" fill="#c9d1d9">APIs</text>
+      <rect x="72" y="132" width="202" height="42" rx="9" fill="url(#nodeCyan)" stroke="#39d0ff"/>
+      <text x="173" y="159" fill="#dff7ff">API Platforms</text>
     </g>
     <g>
-      <rect x="305" y="132" width="170" height="42" rx="9" fill="#161b22" stroke="#388bfd"/>
-      <text x="390" y="159" fill="#c9d1d9">Events</text>
+      <rect x="289" y="132" width="202" height="42" rx="9" fill="url(#nodeBlue)" stroke="#58a6ff"/>
+      <text x="390" y="159" fill="#e0efff">Distributed Systems</text>
     </g>
     <g>
-      <rect x="522" y="132" width="170" height="42" rx="9" fill="#161b22" stroke="#8957e5"/>
-      <text x="607" y="159" fill="#c9d1d9">Services</text>
+      <rect x="506" y="132" width="202" height="42" rx="9" fill="url(#nodePurple)" stroke="#a371f7"/>
+      <text x="607" y="159" fill="#eee5ff">Reliability + Performance</text>
     </g>
     <g>
-      <rect x="739" y="132" width="170" height="42" rx="9" fill="#161b22" stroke="#a371f7"/>
-      <text x="824" y="159" fill="#c9d1d9">AI Workflows</text>
+      <rect x="723" y="132" width="202" height="42" rx="9" fill="url(#nodePink)" stroke="#f778ba"/>
+      <text x="824" y="159" fill="#ffe5f5">Applied AI</text>
     </g>
   </g>
 
   <circle r="5" fill="url(#accent)" filter="url(#glow)">
     <animateMotion dur="4.8s" repeatCount="indefinite" path="M 173 153 H 824"/>
   </circle>
-  <circle r="4" fill="#58a6ff" opacity="0">
+  <circle r="4" fill="#39d0ff" opacity="0">
     <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.28;0.34;0.94;1" dur="4.8s" repeatCount="indefinite"/>
     <animateMotion dur="4.8s" repeatCount="indefinite" path="M 173 153 H 824" begin="-1.45s"/>
   </circle>
-  <circle r="5" fill="#a371f7" filter="url(#glow)">
+  <circle r="5" fill="#f778ba" filter="url(#glow)">
     <animateMotion dur="4.8s" repeatCount="indefinite" path="M 173 153 H 824" begin="-2.9s"/>
   </circle>
 </svg>
