@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-labelledby="title desc">
+  <title id="title">Achyutaram Sonti — Software Engineer</title>
+  <desc id="desc">Backend and distributed systems. Applied AI and agentic workflows. A black, white, and electric-blue banner with an illustrated coding laptop and a blinking cursor.</desc>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .cursor { animation: blink 1.4s step-end infinite; }
+    .activity { animation: activity 5s ease-in-out infinite; }
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+    @keyframes activity { 0%, 100% { opacity: .3; } 50% { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { .cursor, .activity { animation: none; } }
+  </style>
+  <defs>
+    <clipPath id="banner"><rect width="1000" height="300" rx="12"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#banner)">
+    <rect width="1000" height="300" fill="#080b10"/>
+    <path d="M 656 0 H 1000 V 300 H 716 Z" fill="#1557ff"/>
+    <path d="M 686 0 L 746 300" stroke="#ffffff" stroke-opacity=".12"/>
+
+    <circle cx="48" cy="44" r="4" fill="#568aff"/>
+    <text x="63" y="50" fill="#b6c4da" font-size="16" letter-spacing="2">SOFTWARE ENGINEER</text>
+    <text x="42" y="116" fill="#ffffff" font-size="52" font-weight="700" letter-spacing="-1.5">Achyutaram</text>
+    <text x="42" y="173" fill="#ffffff" font-size="52" font-weight="700" letter-spacing="-1.5">Sonti.</text>
+    <rect x="188" y="167" width="28" height="5" rx="1" fill="#568aff"/>
+    <text x="46" y="229" fill="#e4eaf5" font-size="24">Backend &amp; distributed systems.</text>
+    <text x="46" y="263" fill="#8db2ff" font-size="24">Applied AI &amp; agentic workflows.</text>
+
+    <!-- A laptop silhouette and code paths stay crisp at any profile width. -->
+    <g transform="translate(681 54)">
+      <path d="M 25 20 H 265 Q 277 20 277 32 V 177 H 13 V 32 Q 13 20 25 20 Z" fill="#080b10" stroke="#f5f8ff" stroke-width="2"/>
+      <rect x="25" y="34" width="240" height="130" rx="3" fill="#101b30"/>
+      <circle cx="145" cy="27" r="2" fill="#8db2ff"/>
+
+      <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M 76 57 H 72 Q 65 57 65 64 V 80 Q 65 87 56 89 Q 65 91 65 98 V 114 Q 65 121 72 121 H 76" stroke="#8db2ff" stroke-width="3"/>
+        <path d="M 211 57 H 215 Q 222 57 222 64 V 80 Q 222 87 231 89 Q 222 91 222 98 V 114 Q 222 121 215 121 H 211" stroke="#8db2ff" stroke-width="3"/>
+        <g stroke-width="4">
+          <path d="M 96 66 H 119" stroke="#568aff"/>
+          <path d="M 131 66 H 185" stroke="#f5f8ff"/>
+          <path d="M 108 83 H 153" stroke="#8db2ff"/>
+          <path d="M 165 83 H 191" stroke="#568aff"/>
+          <path d="M 108 100 H 169" stroke="#f5f8ff"/>
+          <path class="activity" d="M 96 117 H 139" stroke="#568aff"/>
+        </g>
+      </g>
+
+      <path d="M 38 138 L 43 142 L 38 146" fill="none" stroke="#f5f8ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect class="cursor" x="51" y="137" width="7" height="11" rx="1" fill="#568aff"/>
+      <path d="M 13 177 H 277 L 292 192 Q 294 199 285 199 H 5 Q -4 199 -2 192 Z" fill="#e4eaf5"/>
+      <path d="M 110 177 H 180 L 175 184 H 115 Z" fill="#080b10"/>
+      <path d="M 8 199 H 282" stroke="#080b10" stroke-opacity=".25" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
