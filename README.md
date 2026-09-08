@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/profile-intro.svg" alt="Animated engineering flow: APIs, events, services, and AI workflows" width="100%" />
+</p>
+
 # Achyutaram Sonti
 
 ### Software Engineer - Backend, Distributed Systems & Applied AI

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="210" viewBox="0 0 1000 210" role="img" aria-labelledby="title desc">
+  <title id="title">Achyutaram Sonti engineering profile</title>
+  <desc id="desc">An animated flow from APIs through events and services to applied AI workflows.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58a6ff"/>
+      <stop offset="1" stop-color="#a371f7"/>
+    </linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#30363d" stroke-width="1" opacity="0.28"/>
+    </pattern>
+  </defs>
+
+  <rect x="1" y="1" width="998" height="208" rx="18" fill="url(#background)" stroke="#30363d" stroke-width="2"/>
+  <rect x="1" y="1" width="998" height="208" rx="18" fill="url(#grid)"/>
+
+  <circle cx="25" cy="23" r="5" fill="#ff7b72"/>
+  <circle cx="43" cy="23" r="5" fill="#d29922"/>
+  <circle cx="61" cy="23" r="5" fill="#3fb950"/>
+  <text x="500" y="29" text-anchor="middle" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">achyutaram@engineering</text>
+
+  <text x="500" y="78" text-anchor="middle" fill="#f0f6fc" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="25" font-weight="650">Building reliable systems from API to intelligence</text>
+  <text x="500" y="104" text-anchor="middle" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15">Backend  ·  Distributed Systems  ·  Applied AI</text>
+
+  <path id="flow" d="M 173 153 H 827" fill="none" stroke="#30363d" stroke-width="2"/>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" text-anchor="middle">
+    <g>
+      <rect x="88" y="132" width="170" height="42" rx="9" fill="#161b22" stroke="#388bfd"/>
+      <text x="173" y="159" fill="#c9d1d9">APIs</text>
+    </g>
+    <g>
+      <rect x="305" y="132" width="170" height="42" rx="9" fill="#161b22" stroke="#388bfd"/>
+      <text x="390" y="159" fill="#c9d1d9">Events</text>
+    </g>
+    <g>
+      <rect x="522" y="132" width="170" height="42" rx="9" fill="#161b22" stroke="#8957e5"/>
+      <text x="607" y="159" fill="#c9d1d9">Services</text>
+    </g>
+    <g>
+      <rect x="739" y="132" width="170" height="42" rx="9" fill="#161b22" stroke="#a371f7"/>
+      <text x="824" y="159" fill="#c9d1d9">AI Workflows</text>
+    </g>
+  </g>
+
+  <circle r="5" fill="url(#accent)" filter="url(#glow)">
+    <animateMotion dur="4.8s" repeatCount="indefinite" path="M 173 153 H 824"/>
+  </circle>
+  <circle r="4" fill="#58a6ff" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.28;0.34;0.94;1" dur="4.8s" repeatCount="indefinite"/>
+    <animateMotion dur="4.8s" repeatCount="indefinite" path="M 173 153 H 824" begin="-1.45s"/>
+  </circle>
+  <circle r="5" fill="#a371f7" filter="url(#glow)">
+    <animateMotion dur="4.8s" repeatCount="indefinite" path="M 173 153 H 824" begin="-2.9s"/>
+  </circle>
+</svg>
