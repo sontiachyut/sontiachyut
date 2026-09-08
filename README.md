@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-intro.svg" alt="Hi, I'm Achyutaram. Software engineer — backend, distributed systems, and applied AI." width="100%" />
+  <img src="./assets/profile-intro-v3.svg" alt="Hi, I'm Achyutaram. Software engineer — backend, distributed systems, and applied AI." width="100%" />
 </p>
 
 I am a software engineer with 3+ years of experience building backend and
