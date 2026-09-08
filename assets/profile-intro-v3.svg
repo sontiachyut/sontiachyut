@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260" role="img" aria-labelledby="title desc">
+  <title id="title">Hi, I'm Achyutaram — Software Engineer</title>
+  <desc id="desc">Software engineer. Backend, distributed systems, and applied AI. A small abstract illustration with gently moving dots sits beside the introduction.</desc>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .traveler { animation: travel 12s linear infinite; }
+    .reverse { animation-direction: reverse; animation-duration: 18s; }
+    @keyframes travel { to { transform: rotate(360deg); } }
+    @media (prefers-reduced-motion: reduce) { .traveler { animation: none; } }
+  </style>
+
+  <rect width="1000" height="260" rx="12" fill="#18242c"/>
+
+  <!-- A short introduction, with room for platform font differences. -->
+  <text x="44" y="58" fill="#9eb1bb" font-size="17" letter-spacing="2">SOFTWARE ENGINEER</text>
+  <text x="42" y="118" fill="#faf4e8" font-size="43" font-weight="600" letter-spacing="-1">Hi, I'm Achyutaram.</text>
+  <rect x="44" y="141" width="42" height="4" rx="2" fill="#f08d75"/>
+  <text x="44" y="188" fill="#d6e1e5" font-size="24">Backend &amp; distributed systems.</text>
+  <text x="44" y="223" fill="#90cdc4" font-size="24">Currently building with applied AI.</text>
+
+  <!-- Offset orbits keep the animated illustration independent of the text. -->
+  <g transform="translate(806 130)">
+    <circle r="91" fill="none" stroke="#34454e" stroke-width="1.5"/>
+    <path d="M 0 -91 A 91 91 0 0 1 91 0" fill="none" stroke="#90cdc4" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="-27" cy="12" r="59" fill="none" stroke="#f08d75" stroke-width="2"/>
+    <circle cx="28" cy="-13" r="39" fill="#e8bb74"/>
+    <circle cx="28" cy="-13" r="17" fill="#18242c"/>
+    <g class="traveler">
+      <circle cy="-91" r="6" fill="#90cdc4"/>
+    </g>
+    <g transform="translate(-27 12)">
+      <g class="traveler reverse">
+        <circle cx="59" r="5" fill="#f08d75"/>
+      </g>
+    </g>
+    <path d="M 76 78 h 12 M 82 72 v 12" stroke="#e8bb74" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="-105" cy="-67" r="3" fill="#f08d75"/>
+  </g>
+</svg>
