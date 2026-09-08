@@ -1,15 +1,17 @@
 # Achyutaram Sonti
 
-### Backend & AI Systems Engineer
+### Software Engineer - Backend, Distributed Systems & Applied AI
 
 I am a software engineer with 3+ years of experience building backend and
 distributed systems for healthcare and financial applications. My work spans
 API and service design, event-driven processing, relational data systems,
 performance optimization, automated testing, and production reliability.
 
-I am now extending that foundation into AI-native systems: agents that plan and
+I am currently building applied AI products and agentic workflows that plan and
 execute multi-step work through tools, preserve durable state, retrieve the
-right context, and keep consequential actions observable and human-governed.
+right context, and keep consequential actions observable and human-governed. I
+care about the production concerns behind LLM-based systems: evaluation,
+latency, cost, failure handling, and trustworthy outputs.
 
 I recently completed an M.S. in Computer Science at Arizona State University
 with a 4.00 GPA. I am interested in backend, distributed systems, platform, and
