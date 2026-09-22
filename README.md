@@ -2,62 +2,36 @@
   <img src="./assets/profile-intro-blue-v1.svg" alt="Achyutaram Sonti. Software engineer — backend, distributed systems, applied AI, and agentic workflows." width="100%" />
 </p>
 
-I am a software engineer with 3+ years of experience building backend and
-distributed systems for healthcare and financial applications. My work spans
-API and service design, event-driven processing, relational data systems,
-performance optimization, automated testing, and production reliability.
+I am a software engineer with 3+ years of experience building Java/Spring Boot services on AWS for global payments. At Infinite Computer Solutions, I worked on payment routing, transaction-state management, processor integrations, and performance. I built 12 REST APIs and four reusable processor adapters, and reduced gateway API p95 response time by 31% through PostgreSQL optimization.
 
-I am currently building applied AI products and agentic workflows that plan and
-execute multi-step work through tools, preserve durable state, retrieve the
-right context, and keep consequential actions observable and human-governed. I
-care about the production concerns behind LLM-based systems: evaluation,
-latency, cost, failure handling, and trustworthy outputs.
+My projects explore the same engineering questions from different angles: how to keep data correct when events arrive late, requests are retried, or a process stops halfway through. I also work on AI-native workflows that retrieve relevant evidence, use LLMs in bounded stages, and preserve execution state so failures can be inspected and recovered.
 
-I recently completed an M.S. in Computer Science at Arizona State University
-with a 4.00 GPA. I am interested in backend, distributed systems, platform, and
-AI systems engineering roles.
+I earned an M.S. in Computer Science from Arizona State University with a 4.0 GPA. I’m interested in software engineering roles across distributed systems, full-stack products, cloud applications, and applied AI.
 
 ## Engineering focus
 
-- **Backend and distributed systems:** microservices, API design, Kafka,
-  PostgreSQL, asynchronous processing, concurrency, and failure handling
-- **Agentic systems:** tool orchestration, durable execution, human-in-the-loop
-  controls, retrieval, evaluation, and auditable workflows
-- **Reliability and performance:** idempotency, retries, observability, load
-  testing, database optimization, and tail-latency reduction
-- **Delivery:** automated testing, CI/CD, Docker, Kubernetes, and AWS
+- **Backend and distributed systems:** Java, Spring Boot, REST APIs, PostgreSQL, Kafka, concurrency, and asynchronous processing
+- **Correctness and performance:** idempotency, retries, transactional state, failure recovery, query optimization, and p95 latency
+- **Full-stack and AI applications:** React, TypeScript, Python, retrieval, LLM workflows, and PyTorch
+- **Delivery:** AWS, Docker, Kubernetes, automated testing, and CI/CD
 
 ## Selected work
 
-### [Public Records Review Copilot](https://github.com/sontiachyut/public-records-review-copilot)
+### [Verified Offers](https://github.com/sontiachyut/verified-offers)
+A merchant-offer search and verification system built with Java, Spring Boot, PostgreSQL, Kafka, OpenSearch, and a React/ TypeScript console. It uses a transactional outbox and versioned indexing, then checks current source facts before returning search results. Merchant feeds have durable receipts and restart recovery.
 
-An AI-assisted evidence-review workflow with citation-grounded retrieval,
-source cards, structured findings, and a FastAPI/SQLite backend.
-
-### [AWS Cloud & Edge Inference Platform](https://github.com/sontiachyut/CSE546-Cloud-Computing)
-
-An asynchronous inference pipeline implemented across autoscaling IaaS,
-event-driven AWS Lambda, and IoT Greengrass edge architectures.
+### [Inventory Fulfillment](https://github.com/sontiachyut/inventory-fulfillment)
+A Java/PostgreSQL reservation system built around explicit state transitions, durable idempotency, stock conservation, and concurrent requests. Reservation changes and outbox events commit together.
 
 ### [AI Job-Matching Assistant](https://github.com/sontiachyut/CSE573-LinkedIn-Assistant)
+A FastAPI and Next.js application that parses resumes and compares them with job requirements. It combines retrieval with explainable scoring and a multi-step interface for exploring matches.
 
-A full-stack retrieval and ranking system built with Python, FastAPI, React,
-TypeScript, and structured evaluation workflows.
-
-### [NeuroCool AI](https://github.com/sontiachyut/NeuroCool-AI)
-
-A full-stack assistant with a FastAPI backend and React/TypeScript frontend,
-designed to turn conversational guidance into manageable tasks and routines.
+### [AWS Cloud & Edge Inference](https://github.com/sontiachyut/CSE546-Cloud-Computing)
+Cloud and edge inference projects spanning AWS Lambda and IoT Greengrass. The face-recognition pipeline uses MQTT, SQS, Lambda, and PyTorch to separate edge ingestion from asynchronous cloud processing.
 
 ## Core technologies
 
-- **Languages:** Java, Python, Go, TypeScript, JavaScript, SQL
-- **Backend:** Spring Boot, FastAPI, Node.js, REST APIs, Kafka
-- **Data:** PostgreSQL, Redis, DynamoDB, SQLite
-- **Runtime & delivery:** Docker, Kubernetes, AWS, Terraform, CI/CD
-- **Frontend:** React, Next.js
-
-## Connect
-
-[LinkedIn](https://www.linkedin.com/in/asonti/) ·
-[Email](mailto:asonti1@asu.edu)
+**Languages:** Java, Python, TypeScript, JavaScript, SQL
+**Backend and data:** Spring Boot, FastAPI, REST APIs, PostgreSQL, Redis, Kafka, OpenSearch
+**Cloud and delivery:** AWS, Docker, Kubernetes, Jenkins, CI/CD
+**Frontend and AI:** React, Next.js, retrieval/RAG, LLM workflows, PyTorch
