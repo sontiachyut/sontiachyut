@@ -4,7 +4,7 @@
 
 I am a software engineer with 3+ years of experience building Java/Spring Boot services on AWS for global payments. At Infinite Computer Solutions, I worked on payment routing, transaction-state management, processor integrations, and performance. I built 12 REST APIs and four reusable processor adapters, and reduced gateway API p95 response time by 31% through PostgreSQL optimization.
 
-I’m curious about problems that take me beyond what I already know. Today, that means building with a startup founder, developing computer-vision software with an ASU researcher, and exploring agentic AI through a product of my own. I like learning from people with different expertise and understanding a problem deeply enough to make useful engineering decisions.
+I’m curious about problems that take me beyond what I already know. Today, that means building with a startup founder, developing computer-vision software with an ASU professor, and exploring agentic AI through a product of my own. I like learning from people with different expertise and understanding a problem deeply enough to make useful engineering decisions.
 
 Across these projects, I enjoy owning the complete workflow: understanding the user’s problem, designing the system, building the application, and making sure it behaves correctly when something fails.
 
