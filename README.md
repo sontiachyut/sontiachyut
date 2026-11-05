@@ -10,7 +10,7 @@ Across these projects, I enjoy owning the complete workflow: understanding the u
 
 I earned an M.S. in Computer Science from Arizona State University with a 4.0 GPA. I’m interested in software engineering roles across backend and distributed systems, full-stack products, cloud and edge applications, applied AI, and computer vision.
 
-## Current Work — Building with Founders & Researchers + Personal Projects
+## Current Work — Building with Founders & Researchers, Alongside Personal Projects
 
 **RallyMate · Sports Augmented LLC**
 
