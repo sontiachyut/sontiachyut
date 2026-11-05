@@ -4,13 +4,13 @@
 
 I am a software engineer with 3+ years of experience building Java/Spring Boot services on AWS for global payments. At Infinite Computer Solutions, I worked on payment routing, transaction-state management, processor integrations, and performance. I built 12 REST APIs and four reusable processor adapters, and reduced gateway API p95 response time by 31% through PostgreSQL optimization.
 
-My personal project, Agentic Commerce, explores how an AI agent can complete a purchase while preserving correctness and user control. Its first working product is a voice-enabled pharmacy shopping and pickup assistant built with Python, FastAPI, LangGraph, PostgreSQL, and React/TypeScript. It connects a household request to spending authorization, inventory checks, payment processing, pharmacy preparation, and confirmed pickup in a synthetic demonstration environment.
+I’m curious about problems that take me beyond what I already know. Today, that means building with a startup founder, developing computer-vision software with an ASU researcher, and exploring agentic AI through a product of my own. I like learning from people with different expertise and understanding a problem deeply enough to make useful engineering decisions.
 
 Across these projects, I enjoy owning the complete workflow: understanding the user’s problem, designing the system, building the application, and making sure it behaves correctly when something fails.
 
 I earned an M.S. in Computer Science from Arizona State University with a 4.0 GPA. I’m interested in software engineering roles across backend and distributed systems, full-stack products, cloud and edge applications, applied AI, and computer vision.
 
-## Current Work — Building with Founders & Researchers
+## Current Work — Startups, Research & Personal Projects
 
 **RallyMate · Sports Augmented LLC**
 
@@ -19,6 +19,10 @@ As a Founding Computer Vision Engineer, I work directly with the founder on Rall
 **MASCdot Verification Station · Arizona State University**
 
 I work with Professor Michael Kozicki, a founder of multiple technology startups and former Interim/Founding Director of Entrepreneurial Programs in ASU’s Fulton Schools of Engineering. I develop computer-vision software for physical-identifier verification, including multi-angle image matching, capture-quality analysis, and an operator-facing verification application.
+
+**Agentic Commerce · Personal Project**
+
+My personal project, Agentic Commerce, explores how an AI agent can complete a purchase while preserving correctness and user control. Its first working product is a voice-enabled pharmacy shopping and pickup assistant built with Python, FastAPI, LangGraph, PostgreSQL, and React/TypeScript. It connects a household request to spending authorization, inventory checks, payment processing, pharmacy preparation, and confirmed pickup in a synthetic demonstration environment.
 
 ## Engineering focus
 
