@@ -6,7 +6,7 @@ I am a software engineer with 3+ years of experience building Java/Spring Boot s
 
 I’m curious about problems that take me beyond what I already know. Today, that means building the technology behind a startup’s vision alongside its founder, working directly with an ASU professor and research team to turn experimental needs into usable software, and bringing my own ideas to life through agentic AI. I like learning from people with different expertise and understanding a problem deeply enough to make useful engineering decisions.
 
-I earned an M.S. in Computer Science from Arizona State University with a 4.0 GPA. I’m interested in software engineering roles across backend and distributed systems, full-stack products, cloud and edge applications, applied AI, and computer vision.
+I earned an M.S. in Computer Science from Arizona State University with a 4.0 GPA. I’m interested in software engineering roles across backend and distributed systems, full-stack products, cloud and edge applications, computer vision and agentic workflows.
 
 ## Current Work — Building with Founders & Researchers, Alongside Personal Projects
 
