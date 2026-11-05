@@ -32,7 +32,7 @@ I work with Professor Michael Kozicki, a founder of multiple technology startups
 
 ### RallyMate — Sports Augmented LLC
 
-As a Founding Computer Vision Engineer, I work directly with the founder on a table tennis platform that connects facility operations, camera systems, and automated match analysis. My contributions span Go backend services, Linux facility bridges, device discovery, video recording and cloud uploads, and a Python/PyTorch/OpenCV pipeline for ball and player detection, tracking, court mapping, and shot analysis.
+An end-to-end match recording and analysis system for table tennis facilities. It connects camera discovery, local recording, cloud upload, and a video-processing pipeline that detects and tracks players and the ball, maps the playing area, and analyzes shots. I built the integrations that move recordings between these stages without manual handoffs.
 
 ### MASCdot Verification Station — Research with Professor Michael Kozicki, ASU
 
