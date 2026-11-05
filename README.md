@@ -29,8 +29,8 @@ Across these projects, I enjoy owning the complete workflow: understanding the u
 - **Backend & distributed systems:** Java, Spring Boot, Go, Python, REST APIs, gRPC, PostgreSQL, Kafka, concurrency, and asynchronous processing.
 - **Computer vision:** PyTorch, OpenCV, object detection and tracking, multi-angle image matching, video analysis, and capture-quality evaluation.
 - **Agentic AI & voice:** LangGraph, LLM tool calling, stateful workflows, scoped approvals, agent evaluation, speech recognition, and neural speech synthesis.
-- **Reliability & performance:** idempotency, transactional state, failure recovery, observability, query optimization, and tail-latency reduction.
 - **Cloud, edge & delivery:** AWS, Linux, MQTT, Docker, Kubernetes, automated testing, and CI/CD.
+- **Production experience:** payment processing, processor integrations, transaction-state management, idempotency, failure recovery, observability, and performance optimization.
 
 ## Selected work
 
