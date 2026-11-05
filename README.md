@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-intro-blue-v1.svg" alt="Achyutaram Sonti. Software engineer — backend, distributed systems, applied AI, and agentic workflows." width="100%" />
+  <img src="./assets/profile-intro-blue-v1.svg" alt="Achyutaram Sonti. Software engineer — backend, distributed systems, computer vision, and agentic workflows." width="100%" />
 </p>
 
 I am a software engineer with 3+ years of experience building Java/Spring Boot services on AWS for global payments. At Infinite Computer Solutions, I worked on payment routing, transaction-state management, processor integrations, and performance. I built 12 REST APIs and four reusable processor adapters, and reduced gateway API p95 response time by 31% through PostgreSQL optimization.

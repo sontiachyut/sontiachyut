@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-labelledby="title desc">
   <title id="title">Achyutaram Sonti — Software Engineer</title>
-  <desc id="desc">Backend and distributed systems. Applied AI and agentic workflows. A black, white, and electric-blue banner with an illustrated coding laptop and a blinking cursor.</desc>
+  <desc id="desc">Backend and distributed systems. Computer vision and agentic workflows. A black, white, and electric-blue banner with an illustrated coding laptop and a blinking cursor.</desc>
   <style>
     text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
     .cursor { animation: blink 1.4s step-end infinite; }
@@ -24,7 +24,7 @@
     <text x="42" y="173" fill="#ffffff" font-size="52" font-weight="700" letter-spacing="-1.5">Sonti.</text>
     <rect x="188" y="167" width="28" height="5" rx="1" fill="#568aff"/>
     <text x="46" y="229" fill="#e4eaf5" font-size="24">Backend &amp; distributed systems.</text>
-    <text x="46" y="263" fill="#8db2ff" font-size="24">Applied AI &amp; agentic workflows.</text>
+    <text x="46" y="263" fill="#8db2ff" font-size="24">Computer Vision &amp; agentic workflows.</text>
 
     <!-- A laptop silhouette and code paths stay crisp at any profile width. -->
     <g transform="translate(681 54)">
