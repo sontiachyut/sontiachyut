@@ -12,7 +12,7 @@ I earned an M.S. in Computer Science from Arizona State University with a 4.0 GP
 
 **RallyMate · Sports Augmented LLC**
 
-As a Founding Computer Vision Engineer, I work directly with the founder on RallyMate, a platform for table tennis facilities. I build Go backend services, Linux-based camera and facility integrations, and automated video-analysis pipelines using Python, PyTorch, and OpenCV.
+I work directly with the founder on RallyMate, a platform for table tennis facilities. I build Go backend services, Linux-based camera and facility integrations, and automated video-analysis pipelines using Python, PyTorch, and OpenCV.
 
 **MASCdot Verification Station · Arizona State University**
 
